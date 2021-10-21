@@ -1,0 +1,65 @@
+* Apply CSS to the nav area */
+nav {
+  background: red;
+  text-align: left;
+  padding: 10px;
+  border: 20px blue dotted;
+}
+
+/* Give a background color for the body */
+body {
+  background-color: purple;
+}
+
+/* Set the background and font color for the headers and how it is aligned on the page */
+h1 {
+  background: black;
+  color: white;
+  text-align: center;
+  margin: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Each recipe is a separate article. I want to indent them from the main page */
+article {
+  margin: 5%;
+}
+
+/* Put a border around my pictures! */
+img {
+  border: 5px white solid;
+  padding: 10px;
+  border-radius: 8px;
+}
+/*Push Yourself- What is the difference between padding and margin?*/
+
+/* Styles for smaller headers */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  text-decoration: underline;
+}
+
+/*Styles for paragraphs */
+p {
+  color: white;
+  font-family: cursive;
+}
+
+/*Styles for unordered lists */
+ul > li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*Styles for ordered lists */
+ol > li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#ramen > h1 {
+  background-color: greenyellow;
+}
+
+.title-one {
+  text-decoration: none;
+}
