@@ -1,14 +1,14 @@
-* Apply CSS to the nav area */
+/*Apply CSS to the nav area */
 nav {
   background: red;
-  text-align: left;
-  padding: 10px;
-  border: 20px blue dotted;
+  text-align:center;
+  padding: 70px;
+  border: 20px rgb(209, 149, 58) dotted;
 }
 
 /* Give a background color for the body */
 body {
-  background-color: purple;
+  background-color: greenyellow;
 }
 
 /* Set the background and font color for the headers and how it is aligned on the page */
@@ -28,7 +28,7 @@ article {
 /* Put a border around my pictures! */
 img {
   border: 5px white solid;
-  padding: 10px;
+  padding: 50px;
   border-radius: 8px;
 }
 /*Push Yourself- What is the difference between padding and margin?*/
